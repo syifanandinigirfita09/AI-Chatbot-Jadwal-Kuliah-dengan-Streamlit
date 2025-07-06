@@ -13,7 +13,7 @@ import re
 
 # Inisialisasi
 stemmer = PorterStemmer()
-nltk.download('punkt')
+nltk.download('punkt_tab')
 
 def tokenize(sentence):
     return nltk.word_tokenize(sentence)
